@@ -7,7 +7,7 @@
 #include <iostream>
 
 // Add method implementation
-int StringCalculator::add(const std::string &numbers) {
+int StringCalculator::add(const std::string &numbers) { 
     if (numbers.empty()) {
         return 0;
     }
